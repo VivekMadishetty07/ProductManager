@@ -75,7 +75,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eX8-Kr-o6F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6xf-kI-hQP"/>
                             <constraint firstItem="eX8-Kr-o6F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BDF-oS-iWf"/>
@@ -85,11 +85,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="QYF-3H-XGP">
                         <barButtonItem key="leftBarButtonItem" title="Products List" id="XUM-9A-lrF">
+                            <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="JiU-ra-fAx" kind="show" id="BVF-w6-mSq"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="Msx-lA-Iks">
+                            <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addBook:" destination="BYZ-38-t0r" id="cx6-e7-TSO"/>
                             </connections>

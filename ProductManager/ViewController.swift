@@ -29,7 +29,7 @@ import CoreData
          let documentPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
          if documentPath.count > 0 {
              let documentDirectory = documentPath[0]
-             let filePath = documentDirectory.appending("/book.txt")
+             let filePath = documentDirectory.appending("/product.txt")
              return filePath
          }
          return ""
